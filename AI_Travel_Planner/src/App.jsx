@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import { Button } from "@/components/ui/button"
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Hero from './components/ui/custom/Hero'
 import './App.css'
 
 function App() {
@@ -9,9 +7,8 @@ function App() {
 
   return (
     <>
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-    </div>
+      {/* HERO */}
+      <Hero/>
     </>
   )
 }
